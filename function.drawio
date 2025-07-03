@@ -1,4 +1,4 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.6.0 Safari/537.36" version="27.0.9" pages="4">
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.6.0 Safari/537.36" version="27.0.9" pages="5">
   <diagram name="bms-report-api" id="VcCDupA3R6P2P1Xk5wyI">
     <mxGraphModel dx="465" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -521,7 +521,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="YuJcST5YPQXY03gRMfVW" name="solar-mppt">
-    <mxGraphModel dx="1188" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -569,6 +569,142 @@
         </mxCell>
         <mxCell id="Rv89pt3x9ZjgynxVbEtI-18" value="ไหลเข้าเครื่องวัดไฟ&lt;div&gt;เพื่อรับค่าไฟที่ได้&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="333.34999999999997" y="320" width="160" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="WG-N5ME7Af2rKCDJwGQn" name="watering-api">
+    <mxGraphModel dx="2037" dy="1200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5O2rnSiHcxIH65Vdfvap-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5O2rnSiHcxIH65Vdfvap-2" target="5O2rnSiHcxIH65Vdfvap-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5O2rnSiHcxIH65Vdfvap-2" value="เริ่มต้น" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="370" y="20" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5O2rnSiHcxIH65Vdfvap-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5O2rnSiHcxIH65Vdfvap-3" target="5O2rnSiHcxIH65Vdfvap-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5O2rnSiHcxIH65Vdfvap-3" value="&lt;div&gt;รับคำสั่ง&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;จากผู้ใช้&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="320" y="120" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5O2rnSiHcxIH65Vdfvap-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5O2rnSiHcxIH65Vdfvap-5" target="5O2rnSiHcxIH65Vdfvap-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5O2rnSiHcxIH65Vdfvap-5" value="&lt;div&gt;รับน้ำ&lt;/div&gt;&lt;div&gt;จากระบบกรองน้ำ&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="-MnjjuXNANYvBKgehCkT-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5O2rnSiHcxIH65Vdfvap-6" target="5O2rnSiHcxIH65Vdfvap-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5O2rnSiHcxIH65Vdfvap-6" value="สั่งเปิดวาล์วน้ำเข้าระบบ" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="320" y="440" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SQjHI5tvh8auHtNhdApC-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5O2rnSiHcxIH65Vdfvap-7" target="SQjHI5tvh8auHtNhdApC-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5O2rnSiHcxIH65Vdfvap-7" value="ส่งน้ำออกไปยังท่อ" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="320" y="525" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SQjHI5tvh8auHtNhdApC-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SQjHI5tvh8auHtNhdApC-5" target="SQjHI5tvh8auHtNhdApC-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="245" y="685" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SQjHI5tvh8auHtNhdApC-2" value="ใช่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SQjHI5tvh8auHtNhdApC-1">
+          <mxGeometry x="-0.5147" y="-1" relative="1" as="geometry">
+            <mxPoint y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SQjHI5tvh8auHtNhdApC-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SQjHI5tvh8auHtNhdApC-5" target="SQjHI5tvh8auHtNhdApC-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="685" />
+              <mxPoint x="600" y="730" />
+            </Array>
+            <mxPoint x="610" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SQjHI5tvh8auHtNhdApC-4" value="ไม่ใช่" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SQjHI5tvh8auHtNhdApC-3">
+          <mxGeometry x="-0.4588" y="1" relative="1" as="geometry">
+            <mxPoint y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SQjHI5tvh8auHtNhdApC-5" value="&lt;div&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;พบปัญหาในการ&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;สั่งงานหรือไม่&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="610" width="170" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="SQjHI5tvh8auHtNhdApC-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SQjHI5tvh8auHtNhdApC-7" target="SQjHI5tvh8auHtNhdApC-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SQjHI5tvh8auHtNhdApC-7" value="ประมวลผล&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ข้อผิดพลาด&lt;/span&gt;&lt;div&gt;และส่งข้อมูลกลับเป็น JSON&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="750" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SQjHI5tvh8auHtNhdApC-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SQjHI5tvh8auHtNhdApC-8" target="SQjHI5tvh8auHtNhdApC-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SQjHI5tvh8auHtNhdApC-8" value="ประมวลผลลัพธ์&lt;div&gt;และส่งข้อมูลกลับเป็น JSON&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="515" y="750" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SQjHI5tvh8auHtNhdApC-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SQjHI5tvh8auHtNhdApC-11" target="5O2rnSiHcxIH65Vdfvap-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SQjHI5tvh8auHtNhdApC-11" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="165" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SQjHI5tvh8auHtNhdApC-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SQjHI5tvh8auHtNhdApC-13" target="SQjHI5tvh8auHtNhdApC-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SQjHI5tvh8auHtNhdApC-13" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="399" y="1169" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SQjHI5tvh8auHtNhdApC-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SQjHI5tvh8auHtNhdApC-15" target="SQjHI5tvh8auHtNhdApC-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="245" y="1184" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SQjHI5tvh8auHtNhdApC-15" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="840" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SQjHI5tvh8auHtNhdApC-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SQjHI5tvh8auHtNhdApC-20" target="SQjHI5tvh8auHtNhdApC-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SQjHI5tvh8auHtNhdApC-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SQjHI5tvh8auHtNhdApC-20" target="SQjHI5tvh8auHtNhdApC-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="940" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="414" y="915" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SQjHI5tvh8auHtNhdApC-20" value="&lt;div&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;ผู้ใช้สั่งหยุด&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;การทำงาน&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;แล้วหรือไม่&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="515" y="840" width="170" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="SQjHI5tvh8auHtNhdApC-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SQjHI5tvh8auHtNhdApC-22" target="SQjHI5tvh8auHtNhdApC-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SQjHI5tvh8auHtNhdApC-22" value="ประมวลผลลัพธ์&lt;div&gt;และส่งข้อมูลกลับเป็น JSON&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="329" y="1080" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SQjHI5tvh8auHtNhdApC-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="SQjHI5tvh8auHtNhdApC-24" target="SQjHI5tvh8auHtNhdApC-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SQjHI5tvh8auHtNhdApC-24" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="900" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SQjHI5tvh8auHtNhdApC-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SQjHI5tvh8auHtNhdApC-28" target="SQjHI5tvh8auHtNhdApC-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SQjHI5tvh8auHtNhdApC-28" value="สั่งปิดวาล์วน้ำเข้าระบบ" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="314" y="990" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SQjHI5tvh8auHtNhdApC-31" value="สิ้นสุด" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="364" y="1230" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
